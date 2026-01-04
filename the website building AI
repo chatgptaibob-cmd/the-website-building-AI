@@ -193,3 +193,12 @@ def start_server():
 if __name__ == "__main__":
     threading.Thread(target=start_server,daemon=True).start()
     webbrowser.open(f"http://{ip}:{PORT}")
+thewebsitebuildingAI/
+│
+├─ run.py
+│
+├─ ENTER_SITE/
+│   ├─ index.html
+│   └─ static/
+│       ├─ style.css
+│       └─ ai.js
